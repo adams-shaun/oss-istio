@@ -61,6 +61,7 @@ type Config struct {
 	CNIMode                 bool          `json:"CNI_MODE"`
 	HostNSEnterExec         bool          `json:"HOST_NSENTER_EXEC"`
 	TraceLogging            bool          `json:"IPTABLES_TRACE_LOGGING"`
+	DualStack               bool          `json:"DUAL_STACK"`
 }
 
 func (c *Config) String() string {
